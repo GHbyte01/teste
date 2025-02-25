@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+    color: white;
+    
+    background-image: url(img/fundo\ preto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}   
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Diminui o tamanho da fonte */
+    }
+
+    .container {
+        width: 90%; /* Ajusta a largura para telas menores */
+    }
+
+    .menu {
+        flex-direction: column; /* Torna o menu vertical */
+        align-items: center;
+    }
+
+    .menu a {
+        margin-bottom: 10px; /* Espaçamento entre os itens do menu */
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+}
+
+.titulo_principal{
+    text-align: center;
+    margin-left: 90px;
+    color: deepskyblue;
+}
+
+.lista{
+    border: 1px solid transparent;
+    width: 300px;
+    padding-block: 30px;
+    line-height: 40px;
+    margin: 0;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.houer{
+    text-decoration: none;
+    color: white;
+}
+
+.conteudo{
+    border: solid 1px transparent;
+    width: 350px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.img-geral{
+    width: 320px;
+    height: 300px;
+    border-radius: 5px;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+}
+
+p{
+    font-size: 20px;
+    text-indent: 15px;
+}
+
